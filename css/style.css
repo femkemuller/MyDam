@@ -1,0 +1,206 @@
+
+ @font-face {
+   font-family: Zeyada;
+   src: url(../fonts/Zeyada-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Koulen;
+   src: url(../fonts/Koulen-Regular.ttf);
+ }
+
+ @font-face{
+font-family: Righteous;
+src: url(../fonts/righteous-regular.ttf)
+ }
+
+@font-face{
+font-family: YoungSerif;
+src: url(../fonts/youngserif-regular.ttf)
+}
+
+@font-face {
+   font-family: InclusiveSans;
+   src: url(../fonts/inclusivesans-regular.ttf);
+}
+@font-face {
+   font-family: Cantarell;
+   src: url(../fonts/Cantarell-Bold.ttf);
+}
+@font-face {
+   font-family: Lexend;
+   src: url(../fonts/Lexend-Bold.ttf);
+
+
+}
+
+body {
+   font-family: InclusiveSans;
+   background-color: whitesmoke;
+   color: whitesmoke;
+}
+
+ header {
+    color: whitesmoke;
+    font-size: 2em;
+      padding: 0.1em;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+ }
+
+
+ main article:nth-child(1){
+    background-image: url(../img/azhar-j-t2hgHV1R7_g-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1400px 500px;
+   padding-bottom: 5em;
+   padding-top: 5em;
+   margin-bottom: 2em;
+ }
+
+footer {
+background-color: whitesmoke;
+color: darkred;
+margin-top: 2em;
+font-family: Zeyada;
+font-size: 3em;
+display: flex;
+justify-content: center;
+}
+
+ h1 {
+   color: darkred;
+   font-family: Zeyada;
+   font-weight: bold;
+margin: 0.05em;
+}
+
+
+h2 {
+   display: flex;
+   justify-content: center;
+   padding: 2em;
+   color: darkred;
+}
+
+h3{
+   color: darkred;
+   font-family: Zeyada;
+   font-weight: bold;
+}
+
+ ul {
+display: flex;
+justify-content: flex-end;
+padding: 1em;
+font-size: 0.4em;
+margin-top: 2em;
+ }
+
+ li {
+    margin-right: 2em;
+    color: darkred;
+ }
+
+
+ a:-webkit-any-link{
+   color: darkred;
+   text-decoration: none;
+}
+
+ a:hover{
+   color: palevioletred;
+   padding-left: 0.3em;
+ }
+
+li a:hover {
+   background-color: darkred;
+   padding: 0.5em;
+border-radius: 1em;
+text-decoration: none;
+color: whitesmoke;
+}
+
+li a:focus {
+   background-color: rgb(255, 255, 255);
+   border:0,5em red;
+   color: red;
+}
+
+li a:active {
+color: red;
+background-color: gainsboro
+}
+
+ img{
+   padding: 2em;
+   margin-left: 2em;
+   height: 35%;
+   width: 35%;
+ }
+  
+article {
+   display: flex;
+   flex-direction: row;
+background-color: darkred;
+border-radius: 0.4em;
+}
+
+p {
+   padding-left: 2em;
+}
+
+ p:nth-child(2){
+color: darkred;
+border-radius: 0.8em;
+padding: 0.5em;
+}
+
+footer p{
+padding-left: 0em;
+}
+q {
+   color: darkred;
+   font-family: Righteous;
+   font-size: 3em;
+   background-color: whitesmoke;
+   padding: 0.2em;
+   border-radius: 0.1em;
+   padding-left: 1em;
+   padding-right: 1em;
+}
+
+.right {
+   display: flex;
+   justify-content: flex-end;
+
+}
+.right:hover{
+   padding-right: 0.3em;
+}
+
+.reverse{
+   flex-direction: row-reverse;
+}
+p .reverse{
+   padding-right: 2em;
+   padding-left: 0.1em;
+}
+
+img .reverse{
+   padding: 2em;
+   margin-right: 2em;
+   margin-left: 0.1em;
+}
+
+.center {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   color: darkred;
+   padding: 1em;
+    } 
+
+
