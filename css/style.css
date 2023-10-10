@@ -74,21 +74,32 @@ justify-content: center;
    color: darkred;
    font-family: Zeyada;
    font-weight: bold;
-margin: 0.05em;
+   margin: 0.05em;
 }
-
 
 h2 {
-   display: flex;
-   justify-content: center;
-   padding: 2em;
-   color: darkred;
-}
-
-h3{
    color: darkred;
    font-family: Zeyada;
    font-weight: bold;
+   margin: 0.05em;
+   font-size: 2em;
+}
+
+
+h3 {
+   display: flex;
+   justify-content: center;
+   color: darkred;
+   font-family: Zeyada;
+   font-size: 3em;
+}
+
+h4 {
+   color: darkred;
+   font-family: Zeyada;
+   font-weight: bold;
+   font-size: 1.5em;
+   margin: 0.3em;
 }
 
  ul {
@@ -145,7 +156,6 @@ article {
    display: flex;
    flex-direction: row;
 background-color: darkred;
-border-radius: 0.4em;
 }
 
 p {
@@ -161,13 +171,14 @@ padding: 0.5em;
 footer p{
 padding-left: 0em;
 }
+
 q {
-   color: darkred;
-   font-family: Righteous;
-   font-size: 3em;
-   background-color: whitesmoke;
+   color: white;
+   background-color: rgba(139, 0, 0, 0.5);
+   font-weight: bold;
+   font-size: 3.5em;
    padding: 0.2em;
-   border-radius: 0.1em;
+   border-radius: 0.8em;
    padding-left: 1em;
    padding-right: 1em;
 }
@@ -203,4 +214,27 @@ img .reverse{
    padding: 1em;
     } 
 
+.discriptive {
+   display: flex;
+   justify-items: flex-start;
+flex-direction: column;
+padding: 1em;
+font-size: 1em;
+margin: 1em;
+color: darkred;
+background-color: whitesmoke;
+border-radius: 0.4em;
+}
 
+div {
+display: flex;
+flex-direction: row;
+}
+
+.best{
+   flex-direction: column;
+}
+
+div p{
+   margin: 0.1em;
+}
