@@ -117,7 +117,7 @@ li a:active {
    background-color: rgb(220, 220, 220)
 }
 
-a:-webkit-any-link {
+a {
    color: rgb(139, 0, 0);
    text-decoration: none;
 }
