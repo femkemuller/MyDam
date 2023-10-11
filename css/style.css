@@ -14,12 +14,12 @@ img, video { max-width: 100%; }
 
 body {
    font-family: InclusiveSans;
-   background-color: whitesmoke;
-   color: whitesmoke;
+   background-color: rgb(245, 245, 245);
+   color: rgb(245, 245, 245);
 }
 
 header {
-   color: whitesmoke;
+   color: rgb(245, 245, 245);
    font-size: 2em;
    padding: 0.1em;
    display: flex;
@@ -39,8 +39,8 @@ main article:nth-child(1) {
 }
 
 footer {
-   background-color: whitesmoke;
-   color: darkred;
+   background-color: rgb(245, 245, 245);
+   color: rgb(139, 0, 0);
    margin-top: 2em;
    font-family: Zeyada;
    font-size: 3em;
@@ -49,14 +49,14 @@ footer {
 }
 
 h1 {
-   color: darkred;
+   color: rgb(139, 0, 0);
    font-family: Zeyada;
    font-weight: bold;
    margin: 0.05em;
 }
 
 h2 {
-   color: darkred;
+   color: rgb(139, 0, 0);
    font-family: Zeyada;
    font-weight: bold;
    margin: 0.05em;
@@ -67,13 +67,13 @@ h2 {
 h3 {
    display: flex;
    justify-content: center;
-   color: darkred;
+   color: rgb(139, 0, 0);
    font-family: Zeyada;
    font-size: 3em;
 }
 
 h4 {
-   color: darkred;
+   color: rgb(139, 0, 0);
    font-family: Zeyada;
    font-weight: bold;
    font-size: 1.5em;
@@ -90,37 +90,36 @@ ul {
 
 li {
    margin-right: 2em;
-   color: darkred;
-}
-
-
-a:-webkit-any-link {
-   color: darkred;
-   text-decoration: none;
-}
-
-a:hover {
-   color: palevioletred;
-   padding-left: 0.3em;
+   color: rgb(139, 0, 0);
 }
 
 li a:hover {
-   background-color: darkred;
+   background-color: rgb(139, 0, 0);
    padding: 0.5em;
    border-radius: 1em;
    text-decoration: none;
-   color: whitesmoke;
+   color: rgb(245, 245, 245);
 }
 
 li a:focus {
    background-color: rgb(255, 255, 255);
-   border: 0, 5em red;
-   color: red;
+   border: 0, 5em rgb(255, 0, 0);
+   color: rgb(255, 0, 0);
 }
 
 li a:active {
-   color: red;
-   background-color: gainsboro
+   color: rgb(255, 0, 0);
+   background-color: rgb(220, 220, 220)
+}
+
+a:-webkit-any-link {
+   color: rgb(139, 0, 0);
+   text-decoration: none;
+}
+
+a:hover {
+   color: rgb(216, 112, 147);
+   padding-left: 0.3em;
 }
 
 img {
@@ -133,7 +132,7 @@ img {
 article {
    display: flex;
    flex-direction: row;
-   background-color: darkred;
+   background-color: rgb(139, 0, 0);
 }
 
 article p {
@@ -144,10 +143,8 @@ p {
    padding-left: 2em;
 }
 
-
-
 p:nth-child(2) {
-   color: darkred;
+   color: rgb(139, 0, 0);
    border-radius: 0.8em;
    padding: 0.5em;
 }
@@ -157,20 +154,28 @@ footer p {
 }
 
 q {
-   color: white;
+   color: rgb(255, 255, 255);
    background-color: rgba(139, 0, 0, 0.5);
    font-weight: bold;
-   font-size: 3.5em;
+   font-size: 3em;
    padding: 0.2em;
    border-radius: 0.8em;
    padding-left: 1em;
    padding-right: 1em;
 }
 
+div {
+   display: flex;
+   flex-direction: row;
+}
+
+div p {
+   margin: 0.1em;
+}
+
 .right {
    display: flex;
    justify-content: flex-end;
-
 }
 
 .right:hover {
@@ -196,7 +201,7 @@ img .reverse {
    display: flex;
    align-items: center;
    flex-direction: column;
-   color: darkred;
+   color: rgb(139, 0, 0);
    padding: 1em;
 }
 
@@ -207,20 +212,12 @@ img .reverse {
    padding: 1em;
    font-size: 1em;
    margin: 1em;
-   color: darkred;
-   background-color: whitesmoke;
+   color: rgb(139, 0, 0);
+   background-color: rgb(245, 245, 245);
    border-radius: 0.4em;
-}
-
-div {
-   display: flex;
-   flex-direction: row;
 }
 
 .best {
    flex-direction: column;
 }
 
-div p {
-   margin: 0.1em;
-}
