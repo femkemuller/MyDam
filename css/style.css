@@ -8,9 +8,14 @@
    src: url(../fonts/inclusivesans-regular.ttf);
 }
 
-img, video { max-width: 100%; }
+img,
+video {
+   max-width: 100%;
+}
 
-* { box-sizing: border-box ; }
+* {
+   box-sizing: border-box;
+}
 
 body {
    font-family: InclusiveSans;
@@ -220,4 +225,3 @@ img .reverse {
 .best {
    flex-direction: column;
 }
-
