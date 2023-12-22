@@ -101,17 +101,16 @@ ul {
    padding: 1em;
    font-size: 0.4em;
    margin-top: 2em;
+   list-style-type: none;
 }
 
 li {
-   margin-right: 2em;
+   margin-right: 3em;
    color: rgb(139, 0, 0);
 }
 
 li a:hover {
    background-color: rgb(139, 0, 0);
-   padding: 0.5em;
-   border-radius: 1em;
    text-decoration: none;
    color: rgb(245, 245, 245);
 }
@@ -133,7 +132,6 @@ a {
 
 a:hover {
    color: rgb(216, 112, 147);
-   padding-left: 0.3em;
 }
 
 img {
@@ -214,10 +212,6 @@ button a:hover {
 .right {
    display: flex;
    justify-content: flex-end;
-}
-
-.right:hover {
-   padding-right: 0.3em;
 }
 
 .reverse {
