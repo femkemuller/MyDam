@@ -183,7 +183,7 @@ div p {
    margin: 0.1em;
 }
 
-button {
+.button {
    text-decoration: none;
    margin: 2em;
    border-radius: 1.2em;
@@ -192,19 +192,21 @@ button {
    background: darkred;
    transition-duration: 1s;
    transition-timing-function: linear;
+   display: flex;
+   justify-content: center;
 }
 
-button:hover {
+.button:hover {
    background: rgb(88, 88, 88);
 }
 
-button a {
+.button a {
    color: rgb(255, 230, 230);
    transition-duration: 1s;
    transition-timing-function: linear;
 }
 
-button a:hover {
+.button a:hover {
    padding: 0em;
    color: rgb(245, 245, 245);
 }
@@ -304,11 +306,6 @@ img .reverse {
 .about p {
    padding: 1em;
    margin: 1em;
-}
-
-.button {
-   display: flex;
-   justify-content: center;
 }
 
 .recomendations {
